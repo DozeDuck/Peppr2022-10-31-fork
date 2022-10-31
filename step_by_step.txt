@@ -63,6 +63,8 @@ python $PEPPRHOME/Peppr_Stage1/Peppr_main.py -c 2 -i TLXDYL -t 3Q47.trg -p 50 -N
 # -l <type of cyclization: cys or cyc>
 # -r <reference peptide_structure.pdbqt>
 
+# before running Peppr, please change the python to python3
+# export PATH=$HOME/anaconda3/bin:$PATH
 # python Peppr_Stage1/Peppr_main.py -c 2 -i XDIYVAC -t AF-WIP1_3MG_SOL_modified.trg -p 50 -N 20 -n 2500000 -l cyc
 # Peppr-stage-2 for adding Post-translational modification and re-docking them via SMINA
 # before running the stage-2 we need to set which residue we want to add PTMs to e.g:
