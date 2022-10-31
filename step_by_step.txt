@@ -7,6 +7,7 @@ tar zxvf ADFRsuite_x86_64Linux_1.0.tar.gz
 cd ADFRsuite_x86_64Linux_1.0
 ./install.sh -d $PWD 
 echo "export PATH=/home/b8048283/workspace/ADFRsuite1.0/bin:/$PATH" >> ~/.bashrc 
+# (cp -r $HOME/workspace/ADCP/lib/python2.7/site-packages/* ~/.local/lib/python2.7/site-packages/)
 sourse ~/.bashrc
 
 # Install python 3.9
